@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Voorstel website — Moderne Kapsalon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,700;1,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--mist:#E9EEF1;--kaart:#F6F8F9;--leisteen:#1E2328;--oker:#C9822A;--oker-d:#A96A1D;--grijs:#5B666E;--lijn:#D3DADE}
+*{box-sizing:border-box}
+html,body{overflow-x:hidden}
+body{margin:0;background:var(--mist);color:var(--leisteen);font-family:"Instrument Sans",system-ui,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{width:min(980px,calc(100% - 40px));margin:0 auto}
+header{padding:56px 0 30px}
+.logo{font-family:Parisienne,cursive;font-size:44px;line-height:1}
+h1,h2{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-style:italic;line-height:.98;margin:0}
+h1{font-size:clamp(42px,6vw,68px);margin-top:20px}
+h2{font-size:clamp(32px,4.4vw,46px);margin-bottom:16px}
+.intro{font-size:19px;max-width:58ch;color:#39424a;margin:18px 0 0}
+section{padding:46px 0}
+.versies{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+@media(max-width:760px){.versies{grid-template-columns:1fr}}
+.versie{background:#fff;border-radius:22px;overflow:hidden;text-decoration:none;display:block;transition:transform .25s}
+.versie:hover{transform:translateY(-4px)}
+.versie img{width:100%;display:block;aspect-ratio:16/10;object-fit:cover;object-position:top}
+.versie div{padding:18px 22px 22px}
+.versie b{font-family:"Barlow Condensed",sans-serif;font-style:italic;font-size:26px;display:block}
+.versie span{color:var(--grijs);font-size:15px}
+.versie .open{display:inline-block;margin-top:10px;color:var(--oker-d);font-weight:600;font-size:15px}
+.basis{background:#fff;border-radius:22px;padding:30px 32px}
+.basis ul{margin:0;padding-left:20px}
+.basis li{margin:8px 0}
+.prijs{display:flex;gap:18px;flex-wrap:wrap;margin-top:22px}
+.prijs div{background:var(--leisteen);color:#fff;border-radius:18px;padding:20px 24px;flex:1 1 220px}
+.prijs b{font-family:"Barlow Condensed",sans-serif;font-style:italic;font-size:46px;line-height:1;display:block}
+.prijs span{color:rgba(255,255,255,.75);font-size:15px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:22px;overflow:hidden}
+th,td{text-align:left;padding:15px 20px;border-bottom:1px solid var(--lijn);vertical-align:top}
+th{font-size:14px;color:var(--grijs);font-weight:600;background:var(--kaart)}
+td:last-child,th:last-child{text-align:right;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td small{display:block;color:var(--grijs);font-size:14px}
+.stappen{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.stappen li{counter-increment:s;background:#fff;border-radius:18px;padding:18px 22px 18px 70px;position:relative}
+.stappen li::before{content:counter(s);position:absolute;left:22px;top:14px;font-family:"Barlow Condensed",sans-serif;font-style:italic;font-weight:700;font-size:34px;color:var(--oker)}
+.contact{background:var(--leisteen);color:#fff;border-radius:22px;padding:34px 32px;margin-bottom:60px}
+.contact h2{color:#fff}
+.contact p{margin:0 0 10px;color:rgba(255,255,255,.85)}
+.knop{display:inline-block;margin-top:10px;padding:14px 24px;border-radius:999px;background:var(--oker);color:#fff;text-decoration:none;font-weight:600}
+.knop:hover{background:var(--oker-d)}
+.klein{color:var(--grijs);font-size:14px;margin-top:14px}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <div class="logo" style="font-family:Anton,sans-serif;font-size:38px;letter-spacing:.03em">Moderne Kapsalon</div>
+  <h1>Een website voor Moderne Kapsalon</h1>
+  <p class="intro">182 beoordelingen op Google en een score van 4,7: uw klanten weten hoe goed u knipt. Maar wie vandaag een kapper zoekt in Blankenberge, vindt van u alleen een vermelding, en geen enkele foto van uw werk op een eigen plek. Daarom hebben we alvast een website voor u gemaakt, met uw eigen foto&rsquo;s, zodat u kunt zien hoe het eruit kan zien voor u beslist.</p>
+</header>
+
+<main class="wrap">
+<section>
+  <h2>Uw website</h2>
+  <div class="versies" style="grid-template-columns:1fr"><a class="versie" href="https://manyoelud.github.io/modernekapsalon-blankenberge/" target="_blank" rel="noopener"><img src="salon.jpg" alt="De website van Moderne Kapsalon"><div><b>Bekijk de website</b><span>Uw werk, het salon, de spaarkaart, uw openingsuren en de beoordelingen van uw klanten, in vier talen.</span><br><span class="open">Open de website</span></div></a></div>
+  <p class="klein">Werkt op gsm, tablet en computer. Op de gsm staan onderaan altijd de knoppen om te bellen of de route te openen.</p>
+</section>
+
+<section>
+  <h2>Dit is pas een basis</h2>
+  <div class="basis">
+    <p style="margin-top:0">We hebben de website gemaakt met wat al publiek over u te vinden is: uw foto's, uw openingsuren en de beoordelingen van uw gasten. Alles kan nog veranderen:</p>
+    <ul>
+      <li>tekst, kleuren, volgorde en lettertypes, volledig naar uw smaak;</li>
+      <li>uw diensten en prijzen, zoals u ze wil tonen;</li>
+      <li>bij samenwerking maken we nieuwe foto&rsquo;s van uw werk en het salon, zodat alles er op zijn best uitziet;</li>
+      <li>een eigen domeinnaam op uw naam, bijvoorbeeld modernekapsalon.be.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Wat het kost</h2>
+  <div class="prijs">
+    <div><b>300 €</b><span>eenmalig: de volledige website, domeinnaam, koppeling met Google en Facebook</span></div>
+    <div><b>25 € / maand</b><span>hosting, domein en aanpassingen: uren, foto's, suggesties van de dag</span></div>
+  </div>
+  <h2 style="margin-top:40px;font-size:34px">Extra, als u wil</h2>
+  <table>
+    <tr><th>Optie</th><th>Prijs</th></tr>
+    <tr><td>Nieuwe foto&rsquo;s van uw werk<small>kapsels, het salon en het team, voor de website en sociale media</small></td><td>100 €</td></tr>
+    <tr><td>Online afspraken<small>klanten kiezen zelf een dag en uur op de website, u krijgt het meteen via e-mail of WhatsApp</small></td><td>50 €</td></tr>
+    <tr><td>Prijslijst op de website<small>al uw diensten met prijzen, die u zelf kan laten aanpassen</small></td><td>60 €</td></tr>
+    <tr><td>QR-code voor op tafel<small>klanten scannen voor een afspraak of de spaarkaart</small></td><td>20 €</td></tr>
+    <tr><td>Facebook en Instagram in dezelfde stijl<small>profielen opgezet en afgestemd op de website</small></td><td>80 €</td></tr>
+    <tr><td>Sociale media elke maand<small>2 tot 3 berichten per week met uw eigen foto's, u keurt alles goed via WhatsApp</small></td><td>99 € / maand</td></tr>
+  </table>
+  <p class="klein">Prijzen zijn exclusief btw indien van toepassing. Alles is per stuk te kiezen; niets is verplicht.</p>
+</section>
+
+<section>
+  <h2>Hoe het verloopt</h2>
+  <ol class="stappen">
+    <li>U bekijkt de website en zegt wat anders moet.</li>
+    <li>Wij passen alles aan en maken, als u wil, nieuwe foto's.</li>
+    <li>De website gaat online op uw eigen domeinnaam, meestal binnen enkele dagen.</li>
+    <li>Daarna stuurt u gewoon via WhatsApp wat moet veranderen, en wij zetten het erop.</li>
+  </ol>
+</section>
+
+<div class="contact">
+  <h2>Even praten?</h2>
+  <p>Ik ben Martin en ik woon zelf in Blankenberge. Ik kom graag eens langs om alles te tonen, op een moment dat het u past.</p>
+  <a class="knop" href="tel:+32492539456">Bel 0492 53 94 56</a> <a class="knop" style="background:#25D366" href="https://wa.me/32492539456?text=Hallo%20Martin%2C%20ik%20heb%20het%20voorstel%20voor%20Moderne%20Kapsalon%20bekeken.">WhatsApp</a>
+</div>
+</main>
+</body>
+</html>
